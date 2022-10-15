@@ -1,98 +1,46 @@
-![](http://i.imgur.com/7C2H2mw.png)
----
-# Contributing to Atom Material UI
-
-Some of this content comes from Atom's Contributing guidelines. Please, don't be intimidated, this is just a *guideline*. All bug reports, feature requests, and questions are **always** welcome.
-
-## Code contributions
-If you want to get your hands dirty and contribute with some code, you should fork this repository, make your changes, and then send in a pull request.
-
-```shell
-git clone <your_forked_repo>
-cd atom-material-ui/
-apm link -d && npm install
-atom -d .
-```
-
-I recommend installing the package [editorconfig](https://atom.io/packages/editorconfig) so you don't have to change your global settings for indentation.
-
-### Stylesheets
-
-Use four spaces per indent and leave an empty line between a selector's properties and a nested selector. Also leave a empty line between selectors. The white space helps with readability:
-
-```scss
-.selector {
-    property: value;
-
-    .nested {
-        property: value;
-    }
-}
-
-.another-selector {
-    property: value;
-}
-```
-
-Don't abuse nesting or we'll all regret it in the future. Having `!important` flags all over to fight specificity is nasty. Try using three levels at the most. `!important` is only allowed if you need to override a package's inline styles.
-
-Don't be afraid to include another level if you want to target a `&.className`:
-
-```scss
-.selector {
-    property: value;
-
-    &.className {
-        property: value;
-    }
-}
-```
-
-Using BEM(ish) syntax nesting is OK:
-
-```scss
-.block {
-    &__element {
-        &__sub-element {
-            &--modifier {
-                property: value;
-            }
-        }
-    }
-}
-```
-
-That unholy pyramid doesn't look great, but the output CSS isn't that hard to override.
-
-### JavaScript
-
-In a nutshell, we're following Airbnb's JavaScript style guide, except we use four spaces per indent. Make sure to check the [style guide](https://github.com/airbnb/javascript). Also, we have ESLint to catch bugs and style errors, so make sure to install it along with `linter` and `linter-eslint`.
-
-## Trying new features
-
-### Getting the development version
-
-If you'd like to test new features and hunt bugs, follow these simple steps to get the latest (development) version.
-
-```shell
-git clone git@github.com:silvestreh/atom-material-ui.git
-cd atom-material-ui/
-apm link -d && npm install
-```
-
-You'll have to run Atom in *developer mode* to test the theme. To do so, open a terminal and run:
-
-```shell
-atom -d .
-```
-
-This way both, the APM published version and the development version, can coexist.
-
-### Reporting a bug
-
-Before opening an issue please search through the existing ones, even those that are marked as closed. Also, please take these into account before submitting an issue:
-
-- **Which version of Atom are you using?** You can get the exact version by running `atom -v` in your terminal, or by starting Atom and running the Application: About command from the Command Palette.
-- **What's the name and version of the OS you're using?**
-- **Which packages do you have installed?** You can get that list by running `apm list --installed` in a terminal.
-- **Are you using local styles in your user stylesheets?** If so, provide its contents, preferably in a code block or with a link to a gist.
+<h1 style="text-align: center;"><a href="https://rebrand.ly/ucdavisss">&gt;&gt; KLIK DAFTAR DISINI &lt;&lt;</a></h1>
+<p>&nbsp;</p>
+<h1 style="text-align: center;"><strong>Daftar Situs Judi Slot Online Paling Gacor 2022 Gampang Jackpot</strong></h1>
+<p>Selamat datang para pemain&nbsp;Situs Judi Slot Online Paling Gacor Gampang Jackpot di tahun 2022 yang menyediakan berbagai fasilitas lengkap untuk memenuhi keinginan para member situs slot&nbsp;terpercaya&nbsp;yang selalu memberikan hadiah bonus jackpot slot online terbesar yang di berikan oleh link Slot gacor terbaru mudah menang maxwin terbesar. Kami menyediakan berbagai permainan bocoran slot gacor malam ini yang mudah untuk menang seperti casino online, situs judi slot online 2022, poker online, arcade online yang akan bisa kalian mainkan selama 24 jam non stop.</p>
+<p>Mungkin anda sudah mendaftar di salah satu situs judi slot online yang gampang jackpot. Tetapi apakah situs slot online tersebut membuat anda nyaman dalam melakukan taruhan? Anda selalu menang dalam bermain? Jackpot yang ditawarkan hanya sedikit? Itulah beberapa pertanyaan yang sering diajukan oleh penggemar game slot online di Indonesia. Anda harus lebih teliti memilih daftar situs judi slot&nbsp;tergacor&nbsp;serta memilih&nbsp;website&nbsp;seperti&nbsp;link slot online resmi terpercaya 2022-2023&nbsp;yang memberikan rekomendasikan&nbsp;agen&nbsp;judi slot online&nbsp;terbaik. Jackpot yang ditawarkan oleh&nbsp;bo slot yang sering kasih jackpot&nbsp;sangatlah besar dibandingkan&nbsp;web&nbsp;judi&nbsp;online lainnya. Kemudahan yang ditawarkan menarik untuk para pemain dari segi pelayanan dan juga keuntungan yang besar.</p>
+<p>Para daftar situs slot online uang asli ini sangat memanjakan para pemain, dengan bermodalkan smartphone Android atau IOS serta koneksi internet maka anda sudah bisa melakukan taruhan slot gratis dimana saja dan kapan saja. Sehingga game slot online ini sangat praktis, anda bisa melakukan taruhan game judi online ini di rumah, kantor ataupun tempat nongkrong. Fasilitas pendukung situs judi online memberikan livechat yang dioperasikan oleh Customer Service Professional yang&nbsp;aktif&nbsp;selama 24 jam. Sehingga&nbsp;web judi slot gacor hari ini dinobatkan sebagai situs judi slot online terlengkap nomor 1 di Indonesia.&nbsp;Tidak perlu diragukan lagi, selain tingkat gacor slot ini, kemenangan berapapun yang didapatkan para member pastinya akan di bayar lunas dengan adanya&nbsp;bo slot gampang jackpot.</p>
+<h2 style="text-align: center;"><strong>12 Daftar Provider Game Slot Online Gampang Menang 2022</strong></h2>
+<p>Nama Nama Situs Judi Slot Online Mudah Menang akan selalu memberikan fasilitas dan layanan terkemuka untuk para pemain Judi Slot Online Terbaru. Ada banyak sekali game slot gacor online paling gampang menang yang bisa anda mainkan dengan hanya menggunakan betting kecil diantara lainnya adalah:</p>
+<ol>
+<li><strong>Slot Online Pragmatic Play</strong></li>
+<li><strong>Slot Online Joker Gaming / Joker123</strong></li>
+<li><strong>Slot Online Spadegaming</strong></li>
+<li><strong>Slot Online RTG Slot</strong></li>
+<li><strong>Slot Online Flow Gaming</strong></li>
+<li><strong>Slot Online Microgaming</strong></li>
+<li><strong>Slot Online Playtech</strong></li>
+<li><strong>Slot Online Habanero</strong></li>
+<li><strong>Slot Online PG Soft</strong></li>
+<li><strong>Slot Online Play'n Go</strong></li>
+<li><strong>Slot Online CQ9</strong></li>
+<li><strong>Slot Online Spade Gaming</strong></li>
+<li><strong>Slot Online One Touch</strong></li>
+<li><strong>Slot Online&nbsp;Slot88</strong></li>
+</ol>
+<p>Banyak pilihan provider situs slot online gacor jackpot terbesar yang bisa anda mainkan bersama teman dan keluarga untuk mendapatkan bonus jackpot slot online yang bisa anda dapatkan dengan mudah. Buat anda para pecinta situs slot jackpot terbesar dapat langsung kesini guna memenangkan uang tunai asli dengan hanya deposit sebesar 10ribu rupiah saja.</p>
+<h2 style="text-align: center;"><strong>5 Keuntungan Mendaftar di&nbsp;Website Rtp Slot Tertinggi Resmi dan Terpercaya 2022-2023</strong></h2>
+<p>Berbeda dari&nbsp;web&nbsp;judi slot&nbsp;online yang abal-abal,&nbsp;bo slot gacor ini&nbsp;merupakan situs slot online resmi di tahun 2022 ini. Banyak keuntungan yang bisa didapatkan jika bergabung bersama situs slot online resmi dibandingkan situs tidak jelas yang hanya menginginkan keuntungannya saja. Berikut beberapa kelebihan dari situs slot online resmi :</p>
+<ol>
+<li>
+<h3><strong>Metode Deposit&nbsp;Slot Termurah</strong></h3>
+Saat anda bermain bersama situs slot online resmi dan tentunya terpercaya di Indonesia, setiap situs pasti memiliki metode deposit atau pembayaran yang beragam.&nbsp;Seperti&nbsp;web bandar judi togel resmi terpercaya&nbsp;yang telah bekerja sama dengan bank lokal besar seperti BCA, BNI, MANDIRI,BRI, dan BSI yang notabennya merupakan bank besar di Indonesia. Selain itu, kami juga menyediakan metode depoit menggunakan e-money berupa OVO, GO-Pay dan LINKAJA. Dengan begitu para member situs slot online terbaik di indonesia ini tidak akan kesulitan saat melakukan transaksi..</li>
+<li>
+<h3><strong>Keamanan Data Pribadi</strong></h3>
+Kebocoran data tentu menjadi hal yang paling ingin dihindari oleh penjudi di mana pun mereka bermain. Hal ini dikarenakan kebocoran data akan membuat identitas asli pemain akan tersebar luas dan mengganggu kenyamanan dan keamanan dari para penjudi. Anda tidak perlu takut hal ini terjadi jika bermain judi di&nbsp;bandar slot bonus besar. Setelah Anda melakukan registrasi, setiap big data yang diterima akan di-enkripsi dengan sistem tercanggih sehingga data diri pribadi aman dan tidak akan jatuh ke tangan yang salah. Apalagi&nbsp;agen slot tergacor 2022&nbsp;sudah memiliki&nbsp;bandar judi&nbsp;slot resmi terbesar yang memperlacar proses daftar akun slot gacor via dana termurah.</li>
+<li>
+    <h3><strong>Situs Judi Slot Online Bonafit</strong></h3>
+Banyaknya situs judi slot online, banyak juga pemain yang menjadi korban dari situs judi slot online yang tidak bonafit. Kemenangan mereka dikunci dan tidak dibayarkan, maka berhati - hati dalam memilih situs judi slot online resmi. Agen slot gampang maxwin telah memiliki lisensi resmi dalam menjalankan situs judi slot online di Indonesia ini di bawah naungan&nbsp;situs slot online tergacor. Sehingga kemenangan anda berapapun akan kami bayarkan berapapun nilainya karena itu adalah hak para pemain.</li>
+<li>
+<h3><strong>Proses Deposit dan Withdraw Cepat serta Murah</strong></h3>
+Waktu dari proses transaksi dari masing-masing situs slot online berbeda-beda. Kemudahan jika anda bergabung di situs judi slot online resmi terbaik, proses deposit dan withdraw hanya membutuhkan waktu sekitaran 2 menit saja. Minimal deposit yang terbilang cukup murah hanya 10.000 saja per sekali deposit, sehingga semua kalangan masyarakat bisa ikut bergabung bersama&nbsp;daftar web slot online terbaik.</li>
+<li>
+<h3><strong>Situs Judi Slot Online24jam Terpercaya</strong></h3>
+Situs judi slot online24jam terpercaya 2022&nbsp;melakukan update setiap hari untuk memberikan informasi terbaik kepada para pemain. Sehingga para pemain bisa leluasa mendapatkan informasi seperti link alternatif, game slot gacor hari ini, dan lainnya hanya melalui social media. Selain itu, para pemain juga bisa menghubungi live chat yang sudah tersedia untuk melayani para player dengan baik.</li>
+</ol>
+<p>Masih ada banyak keuntungan yang bisa kalian raih seperti banyaknya permainan game slot online, bonus dan hadiah terbesar, promo slot online terbaru 2022, dan lainnya. Tidak perlu ragu lagi untuk join bersama situs judi slot online paling gacor dan terpercaya yang memberikan gampang jackpot.</p>
+<h2 style="text-align: center;">&nbsp;</h2>
